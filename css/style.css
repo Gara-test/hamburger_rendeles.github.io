@@ -8,14 +8,190 @@
     src: url(/fonts/Inter/);
 }
 
-h1, th
-{
+h1,
+th {
     font-family: patrickhand;
-    color: rgb(255, 136, 0);
+    color: rgb(233, 190, 0);
+    text-shadow: 2px 2px #333333;
 }
 
-td 
-{
+td {
     font-family: inter;
     color: grey;
+} 
+
+h3 {
+    font-family: patrickhand;
+    color: rgb(204, 14, 0);
+    text-shadow: 1px 1px #333333;
+    font-size: x-large;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(54, 54, 54);
+}
+
+header
+{
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    background-color: rgb(241, 225, 151);
+    margin: 0px;
+    border-radius: 5px;
+}
+
+header h1
+{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: xx-large;
+}
+
+header h3
+{
+    text-align: right;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+header img
+{
+    width: 100%;
+}
+
+.main {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(68, 16, 0);
+    min-height: 500px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-menu {
+    background-color: rgb(185, 37, 26);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(233, 190, 0);
+    font-family: patrickhand;
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px #333333;
+}
+
+.nav-menu:hover {
+    color: rgb(128, 2, 2);
+}
+
+article {
+    padding: 10px;
+    background-color: rgb(241, 225, 151);
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+article p {
+    font-family: inter;
+    color: rgb(30, 30, 30);
+    font-size: large;
+    line-height: 1.3rem;
+    letter-spacing: 0.05rem;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 30px;
+    width: 70%;
+}
+
+article img {
+    width: 10%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;    
+}
+
+footer
+{
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    background-color: rgb(241, 225, 151);
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer p 
+{
+    font-family: patrickhand;
+    color: rgb(204, 14, 0);
+    text-shadow: 1px 1px #333333;
+    font-size: x-large;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+table th
+{
+    font-family: patrickhand;
+    color: rgb(233, 190, 0);
+    text-shadow: 2px 2px #333333;
+    font-size: x-large;
+}
+
+table td
+{
+    font-family: inter;
+    color: rgb(230, 230, 230);
+    font-size: large;
+    line-height: 1.3rem;
+    letter-spacing: 0.05rem;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.about-content
+{
+    text-align: center;
+     font-family: inter;
+    color: rgb(230, 230, 230);
+    font-size: large;
+    line-height: 1.3rem;
+    letter-spacing: 0.05rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 10px;
+    }
 }
