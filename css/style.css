@@ -1,0 +1,21 @@
+@font-face {
+    font-family: patrickhand;
+    src: url(/fonts/Patrick_Hand/PatrickHand-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(/fonts/Inter/);
+}
+
+h1, th
+{
+    font-family: patrickhand;
+    color: rgb(255, 136, 0);
+}
+
+td 
+{
+    font-family: inter;
+    color: grey;
+}
